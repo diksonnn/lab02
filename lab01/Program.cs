@@ -31,6 +31,7 @@ namespace lab01
             Console.WriteLine(a * b);
             Console.WriteLine((a+b)/2);
             Console.WriteLine(Maximum(Math.Abs(a),Math.Abs(b)) - Minimum(Math.Abs(a), Math.Abs(b)));
+            Console.WriteLine(Math.Round((Convert.ToDouble(a) / Convert.ToDouble(b)), 2));
         }
     }
 }
